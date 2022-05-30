@@ -1,11 +1,7 @@
 let points, indices, triangles, img;
 
-const RADIUS = 75;
-const CURVE = 2;
-const DT = 0.5;
-
 const m = _.range(1, 100, 1).concat(_.range(100, 1, -1));
-console.log(m);
+
 function preload() {
   img = loadImage('assets/texture3.jpg');
 }
